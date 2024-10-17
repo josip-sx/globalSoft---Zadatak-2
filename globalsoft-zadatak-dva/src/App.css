@@ -1,0 +1,17 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Puna visina prozora */
+  margin: 0; /* Uklanjanje podrazumevanog margina */
+  background-color: #f0f0f0; /* Svetla pozadina za bolju vidljivost */
+}
+
+.container {
+  text-align: center; /* Centriranje teksta unutar kontejnera */
+  padding: 20px; /* Dodavanje prostora oko elemenata */
+  border: 1px solid #ccc; /* Blaga ivica */
+  border-radius: 10px; /* Zaobljeni uglovi */
+  background-color: white; /* Pozadina kontejnera */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Blagi senčenje */
+}
